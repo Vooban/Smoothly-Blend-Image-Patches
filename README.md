@@ -82,6 +82,8 @@ $ python3 smooth_tiled_predictions.py
 
 ## How to use this algorithm in your code
 
+Download [this file](https://github.com/Vooban/Smoothly-Blend-Image-Patches/blob/master/smooth_tiled_predictions.py) which is to be imported in Python 3. You may also want to install [requirements](https://github.com/Vooban/Smoothly-Blend-Image-Patches/blob/master/requirements.txt).
+
 ```python
 from smooth_tiled_predictions import predict_img_with_smooth_windowing
 
