@@ -4,7 +4,7 @@ One challenge of using a U-Net for image segmentation is to have smooth predicti
 
 [![unet satellite image classification](images/unet-satellite-image-classification.jpg)](https://vooban.com/en/tips-articles-geek-stuff/satellite-image-segmentation-workflow-with-u-net/)
 
-For example, here is what the code in this repository can achieve, to make smooth predictions rather than jagged ones. For more information on the neural network architecture, check out this blog post on [satellite image segmentation]([https://vooban.com/en/tips-articles-geek-stuff/satellite-image-segmentation-workflow-with-u-net/](https://vooban.com/en/tips-articles-geek-stuff/satellite-image-segmentation-workflow-with-u-net/).
+For example, here is what the code in this repository can achieve, to make smooth predictions rather than jagged ones. For more information on the neural network architecture, check out this blog post on [satellite image segmentation](https://vooban.com/en/tips-articles-geek-stuff/satellite-image-segmentation-workflow-with-u-net/).
 
 ## Example of predictions with and without this algorithm
 ### Example 1
