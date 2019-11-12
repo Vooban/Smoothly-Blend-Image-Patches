@@ -109,7 +109,7 @@ predictions_smooth = predict_img_with_smooth_windowing(
     subdivisions=2,  # Minimal amount of overlap for windowing. Must be an even number.
     nb_classes=nb_classes,
     pred_func=(
-        lambda img_batch_subdiv: model.predict(image_to_neural_input(img_batch_subdiv))
+        lambda img_batch_subdiv: model.predict(img_batch_subdiv)
     )
 )
 
