@@ -171,7 +171,7 @@ def _windowed_subdivs(padded_img, window_size, subdivisions, nb_classes, pred_fu
 
     for i in range(0, padx_len-window_size+1, step):
         subdivs.append([])
-        for j in range(0, padx_len-window_size+1, step):
+        for j in range(0, pady_len-window_size+1, step):
             patch = padded_img[i:i+window_size, j:j+window_size, :]
             subdivs[-1].append(patch)
 
@@ -209,7 +209,7 @@ def _recreate_from_subdivs(subdivs, window_size, subdivisions, padded_out_shape)
     a = 0
     for i in range(0, padx_len-window_size+1, step):
         b = 0
-        for j in range(0, padx_len-window_size+1, step):
+        for j in range(0, pady_len-window_size+1, step):
             windowed_patch = subdivs[a, b]
             y[i:i+window_size, j:j+window_size] = y[i:i+window_size, j:j+window_size] + windowed_patch
             b += 1
